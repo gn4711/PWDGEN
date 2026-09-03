@@ -9,8 +9,4 @@ dotnet publish PWDGEN.csproj ^
   -p:DebugSymbols=false ^
   -o "publish"
 
-copy publish\PWDGEN.exe c:\sys
-
-pwdgen
-
 pause
